@@ -112,7 +112,7 @@ Private Sub Command1_Click()
 End Sub
 
 Private Sub Documentacao_Click()
-    Shell "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe https://github.com/0roberto0/"
+    Shell "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe https://github.com/0roberto0/Desafio-Paschoalotto"
 End Sub
 
 Private Sub Exportar_Click()
