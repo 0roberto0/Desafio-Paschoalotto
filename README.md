@@ -13,7 +13,7 @@ Passo-a-passo para executar o projeto
 ![image](https://user-images.githubusercontent.com/20867353/212007080-f1f4cdcb-28a5-4de3-9ab0-18565c68e4b4.png)
 
 ## Dependencias Necessárias:
-> Note: Caso for necessario 
+> Nota: Caso for necessario 
 
 #### Registrar a DLL 
 
@@ -22,7 +22,7 @@ Passo-a-passo para executar o projeto
 - MSFLXGRD.OCX -> 'regsvr32 C:\Windows\SysWOW64\MSFLXGRD.OCX'
 
 ## Execução:
-> Note: Scripts para criação do usuario, bannco de dados e tabela para utilização
+> Nota: Scripts para criação do usuario, banco de dados e tabela para utilização
 
 
 ```
