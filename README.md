@@ -57,3 +57,15 @@ Password: 1234
 ![image](https://user-images.githubusercontent.com/20867353/212017563-ddf3ea7b-7cf2-42ff-9770-c1613606f6e7.png)
 ![image](https://user-images.githubusercontent.com/20867353/212017856-51e391e8-db74-41d0-9f0c-092124102309.png)
 ![image](https://user-images.githubusercontent.com/20867353/212018109-cb21e78c-891e-4811-857a-664662be1814.png)
+
+## Utilização:
+
+Para conseguir utilizar a Importação do CSV o mesmo deve seguir o padrão do template que consegue clicando no botão "Download Layout" com ele vai ser criado um arquivo (.xlsx) com o formato correto que deve ser utilizado para importar, Numero de colunas fixo.
+
+Ex: 
+
+![image](https://user-images.githubusercontent.com/20867353/212032622-a54a9a00-7623-453f-9516-1b63c3504495.png)
+
+Para saber o numero de linhas que vai ter que percorrer foi criado uma função que olha o coluna ("A") que é o nome do pokemon, esse campo é obrigatório
+
+Com isso vai conseguir percorrer por todos os campos, pois sabe qual é o numero de Colunas e Linhas possiveis.
