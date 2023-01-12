@@ -9,6 +9,7 @@ Form=Principal.frm
 Form=ImportArchive.frm
 Object={67397AA1-7FB1-11D0-B148-00A0C922E820}#6.0#0; MSADODC.OCX
 Startup="Principal"
+ExeName32="Desafio.exe"
 Command32=""
 Name="Project1"
 HelpContextID="0"

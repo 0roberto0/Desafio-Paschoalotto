@@ -112,7 +112,11 @@ Private Sub Command1_Click()
 End Sub
 
 Private Sub Documentacao_Click()
+On Error GoTo Err
     Shell "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe https://github.com/0roberto0/Desafio-Paschoalotto"
+    Exit Sub
+Err:
+    Shell "C:\Program Files\Google\Chrome\Application\chrome.exe https://github.com/0roberto0/Desafio-Paschoalotto"
 End Sub
 
 Private Sub Exportar_Click()
