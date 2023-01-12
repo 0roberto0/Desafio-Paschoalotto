@@ -60,7 +60,7 @@ Password: 1234
 
 ## Utilização:
 
-Para conseguir utilizar a Importação do CSV o mesmo deve seguir o padrão do template que consegue clicando no botão "Download Layout" clicando nele vai ser criado um arquivo (.xlsx) com o formato correto que deve ser utilizado para importar, Numero de colunas fixo.
+Para conseguir utilizar a Importação do CSV o mesmo deve seguir o padrão do template que consegue clicando no botão "Download Layout" assim vai ser criado um arquivo (.xlsx) com o formato correto que deve ser utilizado para importar, Numero de colunas fixo.
 
 Ex: 
 
