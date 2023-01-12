@@ -60,7 +60,7 @@ Password: 1234
 
 ## Utilização:
 
-Para conseguir utilizar a Importação do CSV o mesmo deve seguir o padrão do template que consegue clicando no botão "Download Layout" com ele vai ser criado um arquivo (.xlsx) com o formato correto que deve ser utilizado para importar, Numero de colunas fixo.
+Para conseguir utilizar a Importação do CSV o mesmo deve seguir o padrão do template que consegue clicando no botão "Download Layout" clicando nele vai ser criado um arquivo (.xlsx) com o formato correto que deve ser utilizado para importar, Numero de colunas fixo.
 
 Ex: 
 
@@ -69,3 +69,6 @@ Ex:
 Para saber o numero de linhas que vai ter que percorrer foi criado uma função que olha o coluna ("A") que é o nome do pokemon, esse campo é obrigatório
 
 Com isso vai conseguir percorrer por todos os campos, pois sabe qual é o numero de Colunas e Linhas possiveis.
+
+- Segue video de demonstração das funcionalidades
+[![Video]()]([https://www.postgresql.org/download/](https://youtu.be/qFWZmtWds_A))
