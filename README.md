@@ -24,24 +24,24 @@ Passo-a-passo para executar o projeto
 ## Execução:
 > Note: Scripts para criação do usuario, bannco de dados e tabela para utilização
 
-# ----------------------------------------------------
 
+```
+CREATE USER postgres WITH PASSWORD ‘1234‘;
 
-> CREATE USER postgres WITH PASSWORD ‘1234‘;
->
-> CREATE DATABASE postgres OWNER postgres;
->
-> CREATE TABLE public.pokedex (
->	 id SERIAL primary key ,
->	 created_at timestamp NOT NULL DEFAULT now(),
->	 name_pokemon text NOT NULL,	
->	 Type_1 text NULL,
->	 Type_2 text NULL,	
->	 Total int4 NULL DEFAULT 0,
->	 HP int4 NULL DEFAULT 0,
->	 Attack int4 NULL DEFAULT 0,
->	 Defense int4 NULL DEFAULT 0
-> );
+CREATE DATABASE postgres OWNER postgres;
+
+CREATE TABLE public.pokedex (
+	id SERIAL primary key ,
+	created_at timestamp NOT NULL DEFAULT now(),
+	name_pokemon text NOT NULL,	
+	Type_1 text NULL,
+	Type_2 text NULL,	
+	Total int4 NULL DEFAULT 0,
+	HP int4 NULL DEFAULT 0,
+	Attack int4 NULL DEFAULT 0,
+	Defense int4 NULL DEFAULT 0
+);
+```
 
 ### No 'ODBC Driver Manager'
 
