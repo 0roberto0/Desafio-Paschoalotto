@@ -45,12 +45,14 @@ CREATE TABLE public.pokedex (
 
 ### No 'ODBC Driver Manager'
 
-> DataBase: postgres
-> Server / Host: localhost
-> UserName: postgres
+```
+DataBase: postgres
+Server / Host: localhost
+UserName: postgres
 
-> Port: 5432
-> Password: 1234
+Port: 5432
+Password: 1234
+```
 
 ![image](https://user-images.githubusercontent.com/20867353/212017563-ddf3ea7b-7cf2-42ff-9770-c1613606f6e7.png)
 ![image](https://user-images.githubusercontent.com/20867353/212017856-51e391e8-db74-41d0-9f0c-092124102309.png)
